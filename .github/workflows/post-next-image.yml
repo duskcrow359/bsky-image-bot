@@ -1,8 +1,8 @@
 name: 'bsky-image-bot Post Next Image'
 on:
   # Comment out workflow_dispatch and uncomment the schedule to run daily
-  # workflow_dispatch:
-  schedule:
+  //workflow_dispatch:
+  schedule: hourly
   #  - cron: "30 5 * * *"
 
 jobs:
